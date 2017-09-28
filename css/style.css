@@ -223,13 +223,11 @@ font-weight:normal;
 	float: left;
 	margin-right: 10px;
 	margin-top: 12px;
-	background: url(../images/pexa.png) no-repeat center center;
-	background-size: contain;
 }
 
 .pexa img {
 	position: absolute;
-	bottom: 0;
+	bottom: 10px;
 }
 
 /* ----- HEADINGS ----- */
