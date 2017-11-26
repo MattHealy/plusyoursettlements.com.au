@@ -24,9 +24,7 @@
  <script type="text/javascript" src="js/jquery-3.2.1.min.js?t=<?php echo $cachebuster; ?>"></script>
  <script type="text/javascript" src="nivo/jquery.nivo.slider.pack.js?t=<?php echo $cachebuster; ?>"></script>
 
-<script type="text/javascript" src="js/jquery.fancybox.js?t=<?php echo $cachebuster; ?>"></script>
-<script type="text/javascript" src="js/jquery.metadata.js?t=<?php echo $cachebuster; ?>"></script>
-<script type="text/javascript" src="js/jquery.validate.js?t=<?php echo $cachebuster; ?>"></script>
+<script type="text/javascript" src="js/jquery.validate.min.js?t=<?php echo $cachebuster; ?>"></script>
 <script type="text/javascript" src="js/innerfade.js?t=<?php echo $cachebuster; ?>"></script>
 <script type="text/javascript" src="js/stampduty.js?t=<?php echo $cachebuster; ?>"></script>
 

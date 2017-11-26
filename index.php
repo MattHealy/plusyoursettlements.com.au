@@ -108,7 +108,7 @@ $(document).ready(function(){
 	
 	$("#js-more-service-link").css("cursor", "pointer").click(function(){
 		$(this).hide();
-		if(!$.browser.safari){$("#js-less-service-link").show();}
+		$("#js-less-service-link").show();
 		var h = $("#js-serviceblock").height();
 		$("#js-serviceblock").animate({"height": "+=178px"}, "normal", "swing");
 	});	

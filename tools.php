@@ -24,23 +24,23 @@
 						<fieldset>
 							<p>
 								<label for="price">Purchase Price:</label>
-								<input type="text" name="price" id="price" title="Enter a whole dollar amount" validate="required:true" class="textfield" /> 
+								<input type="text" name="price" id="price" title="Enter a whole dollar amount" required="required" class="textfield" /> 
 							</p>
 							<p>
 								Are you a first home buyer?
-								<label for="fhortrue">Yes<input type="radio" name="fhor" id="fhortrue" value="true" validate="required:true" /></label>
+								<label for="fhortrue">Yes<input type="radio" name="fhor" id="fhortrue" value="true" required="required" /></label>
 								&nbsp;&nbsp;
 								<label for="fhorfalse">No<input type="radio" name="fhor" id="fhorfalse" value="false" /></label>
 							</p>
 							<p>
 								Will the property be your primary residence?
-								<label for="residentialtrue">Yes<input type="radio" name="residential" id="residentialtrue" value="true" validate="required:true" /> </label>
+								<label for="residentialtrue">Yes<input type="radio" name="residential" id="residentialtrue" value="true" required="required" /> </label>
 								&nbsp;&nbsp;
 								<label for="residentialfalse">No<input type="radio" name="residential" id="residentialfalse" value="false" /> </label>
 							</p>
 							<p>
 								Is the property Vacant Land?
-								<label for="vacanttrue">Yes<input type="radio" name="vacant" id="vacanttrue" value="true" validate="required:true" /> </label>
+								<label for="vacanttrue">Yes<input type="radio" name="vacant" id="vacanttrue" value="true" required="required" /> </label>
 								&nbsp;&nbsp;
 								<label for="vacantfalse">No<input type="radio" name="vacant" id="vacantfalse" value="false" /> </label>
 							</p>
@@ -68,8 +68,6 @@
 		
 <script type="text/javascript">
 $(document).ready(function() {
-
-	$.metadata.setType("attr", "validate");
 
 	$('#myform').validate({
 
