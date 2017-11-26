@@ -1,3 +1,7 @@
+<?php
+ $cachebuster = '201711261009';
+?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
 <head>
@@ -11,24 +15,24 @@
 
    	<title><?php if ($pagetitle) { echo "$pagetitle" . " - Plus Your Settlements"; } else {echo 'Plus Your Settlements';}?></title>
 
-	<link rel="icon" href="favicon.ico" type="image/x-icon" />
-	<link rel="stylesheet" type="text/css" href="css/style.css?t=201709281618" />
-    <link rel="stylesheet" href="css/nivo-default.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="css/nivo-style.css" type="text/css" media="screen" /> 
+	<link rel="icon" href="favicon.ico?t=<?php echo $cachebuster; ?>" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="css/style.css?t=<?php echo $cachebuster; ?>" />
+    <link rel="stylesheet" href="nivo/nivo-slider.css?t=<?php echo $cachebuster; ?>" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo/themes/default/default.css?t=<?php echo $cachebuster; ?>" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo/nivo-style.css?t=<?php echo $cachebuster; ?>" type="text/css" media="screen" />
   
- <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
- <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+ <script type="text/javascript" src="js/jquery-3.2.1.min.js?t=<?php echo $cachebuster; ?>"></script>
+ <script type="text/javascript" src="nivo/jquery.nivo.slider.pack.js?t=<?php echo $cachebuster; ?>"></script>
 
-<script type="text/javascript" src="js/jquery.fancybox.js"></script>
-<script type="text/javascript" src="js/jquery.cookie.js"></script>
-<script type="text/javascript" src="js/jquery.validate.js"></script>
-<script type="text/javascript" src="js/innerfade.js"></script>
-<script type="text/javascript" src="js/stampduty.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.js?t=<?php echo $cachebuster; ?>"></script>
+<script type="text/javascript" src="js/jquery.metadata.js?t=<?php echo $cachebuster; ?>"></script>
+<script type="text/javascript" src="js/jquery.validate.js?t=<?php echo $cachebuster; ?>"></script>
+<script type="text/javascript" src="js/innerfade.js?t=<?php echo $cachebuster; ?>"></script>
+<script type="text/javascript" src="js/stampduty.js?t=<?php echo $cachebuster; ?>"></script>
 
    
     <script type="text/javascript">
-    $(window).load(function() {
+    $(window).on("load", function() {
         $('#slider').nivoSlider();
     });
     </script>

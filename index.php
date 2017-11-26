@@ -10,18 +10,14 @@
          <div class="slider-wrapper theme-default">
             <div class="ribbon"></div>
             <div id="slider" class="nivoSlider">
-                <img src="images/slider-image01.png" alt="" />
-                <img src="images/slider-image02.png" alt="" />
-                <img src="images/slider-image03.png" alt="" />
-                <img src="images/slider-image04.png" alt="" />
-                <img src="images/slider-image05.png" alt="" />
-                <img src="images/slider-image06.png" alt="" />
-            </div>
-            <div id="htmlcaption" class="nivo-html-caption">
-                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+                <img src="images/slider-image01.png" alt="Slideshow image 1" />
+                <img src="images/slider-image02.png" alt="Slideshow image 2" />
+                <img src="images/slider-image03.png" alt="Slideshow image 3" />
+                <img src="images/slider-image04.png" alt="Slideshow image 4" />
+                <img src="images/slider-image05.png" alt="Slideshow image 5" />
+                <img src="images/slider-image06.png" alt="Slideshow image 6" />
             </div>
         </div>
-                
                 
 	<img src="images/banner-text-bottom.png" alt="Services We Offer" />
 				

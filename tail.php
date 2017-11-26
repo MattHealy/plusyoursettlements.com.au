@@ -14,7 +14,6 @@
 				<p class="ee"><a href="http://www.maadwebdesign.com.au">Maad Web Design</a></p>
                                 <p class="privacy"><a href="/files/Privacy Statement Plus Your Settlements.pdf" target="_blank">Privacy</a></p>
 
-				<a class="feed" href="Blog Feed">subscribe to our feed</a>
 			</div>
 		</div>
 	</div>
@@ -29,12 +28,6 @@
 			type: 'random_start',
 			containerheight: '168px'
 		});
-	});
-</script>
-	</div>
-	
-<script type="text/javascript">
-	$(document).ready(function(){
 		$("a.ext").attr("target","_blank");	
 	});
 </script>

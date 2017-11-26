@@ -1,0 +1,9 @@
+.theme-default #slider {
+    margin:0 auto 20px auto;
+    width:955px; /* Make sure your images are the same size */
+    height:223px; /* Make sure your images are the same size */
+}
+
+.clear {
+    clear: both;
+}

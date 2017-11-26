@@ -66,4 +66,42 @@
 		</div>
 		</div>
 		
+<script type="text/javascript">
+$(document).ready(function() {
+
+	$.metadata.setType("attr", "validate");
+
+	$('#myform').validate({
+
+		submitHandler: function(form) {
+
+			var residential = $('input[name=residential]:checked', '#myform').val()
+			var fhor = $('input[name=fhor]:checked', '#myform').val()
+			var vacant = $('input[name=vacant]:checked', '#myform').val()
+
+			var rateType;
+
+			if (fhor == 'true' && residential == 'true') {
+				if (vacant == 'true') {
+					rateType = 'fhor_vacant';
+				} else {
+					rateType = 'fhor_established';
+				}
+			} else if (residential == 'true') {
+				rateType = 'residential';
+			} else {
+				rateType = 'general';
+			}
+
+			$('#stampduty').val(CalculateStampDuty(rateType,$('#price').val()));
+
+			return false;
+
+		}
+		
+	});
+
+});
+</script>
+
 <?php require_once('tail.php') ?>
