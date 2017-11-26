@@ -1,0 +1,33 @@
+RewriteEngine on
+
+# Force www version to be used
+RewriteCond %{HTTP_HOST} ^plusyoursettlements.com.au [NC]
+RewriteRule ^(.*)$ http://www.plusyoursettlements.com.au/$1 [L,R=301,NC]
+
+# Redirect old .html URLs to new PHP URLs
+Redirect 301 /index.html /
+Redirect 301 /contact.html /contact
+Redirect 301 /buying.html /buying
+Redirect 301 /selling.html /selling
+Redirect 301 /testimonials.html /testimonials
+Redirect 301 /tools.html /tools
+Redirect 301 /about.html /about
+Redirect 301 /services.html /services
+
+# New clean URL structure
+
+RewriteRule ^contact$ contact.php [L]
+RewriteRule ^buying$ buying.php [L]
+RewriteRule ^selling$ selling.php [L]
+RewriteRule ^testimonials$ testimonials.php [L]
+RewriteRule ^tools$ tools.php [L]
+RewriteRule ^about$ about.php [L]
+RewriteRule ^services$ services.php [L]
+
+RewriteRule ^contact/$ contact.php [L]
+RewriteRule ^buying/$ buying.php [L]
+RewriteRule ^selling/$ selling.php [L]
+RewriteRule ^testimonials/$ testimonials.php [L]
+RewriteRule ^tools/$ tools.php [L]
+RewriteRule ^about/$ about.php [L]
+RewriteRule ^services/$ services.php [L]
