@@ -5,7 +5,7 @@
 
 			<a href="/" class="siteBy"><span>Plus Your Settlements</span></a>
 
-			<p>&copy; 2012  -  All rights reserved.</p>
+			<p>&copy; <?php echo date('Y'); ?>  -  All rights reserved.</p>
 			<div class="footerRight">
 				<div class="validators">
 					<a href="http://validator.w3.org/check?uri=referer" class="valhtml"><span>validate html</span></a>
