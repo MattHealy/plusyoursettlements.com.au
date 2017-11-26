@@ -1,5 +1,10 @@
 <?php
  $cachebuster = '201711261141';
+
+ $page = substr($_SERVER['REQUEST_URI'], 1);
+
+ $active[$page]=' class="active"';
+
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -50,13 +55,13 @@
                 <div class="pexa"><img src="images/pexa.png" width="105" /></div>
 
 		<ol id="sitelinks">
-	<li class="services"><a href="/services" title="Services"><span>Services</span> <em>what we offer you</em></a></li>
-	<li class="buying"><a href="/buying" title="Buying"><span>Buying</span> <em>we make buying easy</em></a></li>
+	<li<?php echo $active['services']; ?>><a href="/services" title="Services"><span>Services</span> <em>what we offer you</em></a></li>
+	<li<?php echo $active['buying']; ?>><a href="/buying" title="Buying"><span>Buying</span> <em>we make buying easy</em></a></li>
 
-	<li class="clients"><a href="/selling" title="Selling"><span>Selling</span> <em>Sell without the hassle</em></a></li>
-	<li class="tools"><a href="/tools" title="Tools"><span>Tools</span> <em>Calculate the sums</em></a></li>
-	<li class="about"><a href="/about" title="About us"><span>About us</span> <em>get to know us</em></a></li>
-	<li class="contactus"><a href="/contact" title="Contact us"><span>Contact us</span> <em>ask us anything</em></a></li>
+	<li<?php echo $active['selling']; ?>><a href="/selling" title="Selling"><span>Selling</span> <em>Sell without the hassle</em></a></li>
+	<li<?php echo $active['tools']; ?>><a href="/tools" title="Tools"><span>Tools</span> <em>Calculate the sums</em></a></li>
+	<li<?php echo $active['about']; ?>><a href="/about" title="About us"><span>About us</span> <em>get to know us</em></a></li>
+	<li<?php echo $active['contact']; ?>><a href="/contact" title="Contact us"><span>Contact us</span> <em>ask us anything</em></a></li>
 
 </ol>
 		

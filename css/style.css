@@ -49,28 +49,6 @@ body{
 	width: 994px;
 }
 
-.services .content{
-	width: 994px;
-}
-.testimonials .content{
-	width: 994px;
-}
-.buying .content{
-	width: 994px;
-}
-.selling .content{
-	width: 994px;
-}
-.tools .content{
-	width: 994px;
-}
-.about .content{
-	width: 994px;
-}
-.contact .content{
-	width: 994px;
-}
-
 .pageTop, .pageDiv {
 	border-bottom: 1px solid #D4D4D3;
 	margin: 0px;
@@ -689,35 +667,9 @@ background-color: #d1cdc1;
 }
 
 /** where am i? **/
-.clients #navigation #sitelinks .clients a {
+#navigation #sitelinks .active a {
 	color: #fff;	
 }
-.selling #navigation #sitelinks .selling a {
-	color: #fff;	
-}
-.services #navigation #sitelinks .services a {
-	color: #fff;	
-}
-.buying #navigation #sitelinks .buying a {
-	color: #fff;	
-}
-.tools #navigation #sitelinks .tools a {
-	color: #fff;	
-}
-.portfolio #navigation #sitelinks .portfolio a {
-	color: #fff;	
-}
-.blog #navigation #sitelinks .blog a {
-	color: #fff;	
-}
-.about #navigation #sitelinks .about a {
-	color: #fff;	
-}
-.contact #navigation #sitelinks .contact a {
-	color: #fff;	
-}
-
-
 
 /* lang bar */
 
