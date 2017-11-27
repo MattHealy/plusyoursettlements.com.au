@@ -58,7 +58,7 @@
 
 	<div class="content">
 		<div class="logo"><h1><a href="/" title="Plus Your Settlements"><span>Plus Your Settlements</span></a></h1></div>
-                <div class="pexa"><img src="images/pexa.png" width="105" /></div>
+                <div class="pexa"><img src="images/pexa.png" width="105" alt="PEXA logo" /></div>
 
 		<ol id="sitelinks">
 	<li<?php echo $active['services']; ?>><a href="/services" title="Services"><span>Services</span> <em>what we offer you</em></a></li>
