@@ -23,20 +23,13 @@
 					<br />
 						
 					<p>
-"Mum had lived in Guildford for over fifty years and to fill out the documents etc was a real challenge. Janet guided us through the whole process with no stress at all and everything went like clock work." - <span class="bold">David Murray</span>
+"Hi I would like to thank you for your service with buying our new home your help and kindness was much appreciated we were very pleased with how it turned out and I would not hesitate to recommend your service to anyone who is buying or selling a home." - <span class="bold">Jack and Jean</span>
 					</p>
 
 					<p>
-"Plus Your Settlements were terrific to deal with everyone were great. Things happened on time and we appreciated the little extra things that they did for us." - <span class="bold">Janice Beales</span>
+"Thank you Sam, you are a miracle worker." - <span class="bold">Joyce</span>
 					</p>
 
-					<p>
-"I wanted a smooth headache-free settlement and that's what we got. Even with a few of the small things that popped up they were dealt with quickly and effeciently was an excellent experience thanks to Janet and the team at PYS" - <span class="bold">Denise Haggerty</span>
-					</p>
-
-
-
-										
 				</div>
 	
 <?php require_once('sidebar.php') ?>
