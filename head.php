@@ -1,9 +1,15 @@
 <?php
- $cachebuster = '201711261141';
+ $cachebuster = '201711271022';
 
  $page = substr($_SERVER['REQUEST_URI'], 1);
 
  $active[$page]=' class="active"';
+
+ session_start();
+ // Create a new CSRF token.
+ if (! isset($_SESSION['csrf_token'])) {
+     $_SESSION['csrf_token'] = base64_encode(openssl_random_pseudo_bytes(32));
+ }
 
 ?>
 

@@ -20,7 +20,7 @@
 											
 					<p class="intro-text">Use the handy calculator below to calculate Stamp Duty costs for buying a property</p>
 						
-					<form id="myform">
+					<form id="myform" class="myform">
 						<fieldset>
 							<p>
 								<label for="price">Purchase Price:</label>
@@ -30,13 +30,13 @@
 								Are you a first home buyer?
 								<label for="fhortrue">Yes<input type="radio" name="fhor" id="fhortrue" value="true" required="required" /></label>
 								&nbsp;&nbsp;
-								<label for="fhorfalse">No<input type="radio" name="fhor" id="fhorfalse" value="false" /></label>
+								<label for="fhorfalse">No<input type="radio" name="fhor" id="fhorfalse" value="false" required="required" /></label>
 							</p>
 							<p>
 								Will the property be your primary residence?
 								<label for="residentialtrue">Yes<input type="radio" name="residential" id="residentialtrue" value="true" required="required" /> </label>
 								&nbsp;&nbsp;
-								<label for="residentialfalse">No<input type="radio" name="residential" id="residentialfalse" value="false" /> </label>
+								<label for="residentialfalse">No<input type="radio" name="residential" id="residentialfalse" value="false" required="required" /> </label>
 							</p>
 							<p>
 								Is the property Vacant Land?

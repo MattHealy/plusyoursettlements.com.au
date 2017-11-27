@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /contact/submit
+Disallow: /thanks
+Disallow: /error

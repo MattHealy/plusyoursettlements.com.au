@@ -1312,27 +1312,34 @@ padding:0 0 10px 0;
 
 /* Contact Form */
 
-#myform {
+.myform {
 	background:#333 url(../images/contact_grad.png) repeat-x;	
 	padding:10px; 
 	color:#eee;
-	width:80%;
 	position:relative;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;	
-} 
+}
 
-#myform fieldset {
+#myform.myform {
+	width:80%;
+}
+
+#contactform.myform {
+	width:100%;
+}
+
+.myform fieldset {
 	border:0;
 	margin:0;
 	padding:0;
 	background:transparent;	
 }
 
-#myform h3 	{ color:#fff; margin-top:0px; }
-#myform p 	{ color:#fff; margin:10px; 0 0 0; }
+.myform h3 	{ color:#fff; margin-top:0px; }
+.myform p 	{ color:#fff; margin:10px; 0 0 0; }
 
-#myform input.textfield {
+.myform input.textfield {
 	border:1px solid #444;
 	background-color:#666;
 	padding:5px;
@@ -1345,7 +1352,7 @@ padding:0 0 10px 0;
 	-webkit-border-radius:4px;	
 }
 
-#myform textarea {
+.myform textarea {
 	border:1px solid #444;
 	background-color:#666;
 	padding:5px;
@@ -1360,10 +1367,10 @@ padding:0 0 10px 0;
 	-webkit-border-radius:4px;	
 }
 
-#myform input:focus 		{ color:#e2e2e2; background-color:#777; }
-#myform input:active 	{ background-color:#888; }
+.myform input:focus 		{ color:#e2e2e2; background-color:#777; }
+.myform input:active 	{ background-color:#888; }
 
-#myform button {
+.myform button {
 	outline:0;
 	border:1px solid #666;	
 }

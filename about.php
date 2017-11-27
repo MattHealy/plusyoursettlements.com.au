@@ -8,7 +8,7 @@
 						<h1>About Us</h1>
 					</div>
 					<div class="breadCrumbs">
-						You are here: <a href="index.html" title="Home">Home</a>
+						You are here: <a href="/" title="Home">Home</a>
 
 						&raquo;&nbsp;<span class="active">About Us</span>
 							

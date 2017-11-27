@@ -17,17 +17,26 @@ Redirect 301 /services.html /services
 # New clean URL structure
 
 RewriteRule ^contact$ contact.php [L]
+RewriteRule ^contact/submit$ contact_submit.php [L]
 RewriteRule ^buying$ buying.php [L]
 RewriteRule ^selling$ selling.php [L]
 RewriteRule ^testimonials$ testimonials.php [L]
 RewriteRule ^tools$ tools.php [L]
 RewriteRule ^about$ about.php [L]
 RewriteRule ^services$ services.php [L]
+RewriteRule ^thanks$ thanks.php [L]
+RewriteRule ^error$ 500.php [L]
 
 RewriteRule ^contact/$ contact.php [L]
+RewriteRule ^contact/submit/$ contact_submit.php [L]
 RewriteRule ^buying/$ buying.php [L]
 RewriteRule ^selling/$ selling.php [L]
 RewriteRule ^testimonials/$ testimonials.php [L]
 RewriteRule ^tools/$ tools.php [L]
 RewriteRule ^about/$ about.php [L]
 RewriteRule ^services/$ services.php [L]
+RewriteRule ^thanks/$ thanks.php [L]
+RewriteRule ^error/$ 500.php [L]
+
+ErrorDocument 404 /404.php
+ErrorDocument 500 /500.php

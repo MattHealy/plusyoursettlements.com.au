@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  website:
+    container_name: pys-website
+    build: .
+    restart: on-failure
+    ports:
+      - "8000:80"
+    volumes:
+      - ./:/var/www/html
