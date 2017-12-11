@@ -26,6 +26,7 @@ RewriteRule ^about$ about.php [L]
 RewriteRule ^services$ services.php [L]
 RewriteRule ^thanks$ thanks.php [L]
 RewriteRule ^error$ 500.php [L]
+RewriteRule ^links$ links.php [L]
 
 RewriteRule ^contact/$ contact.php [L]
 RewriteRule ^contact/submit/$ contact_submit.php [L]
@@ -37,6 +38,7 @@ RewriteRule ^about/$ about.php [L]
 RewriteRule ^services/$ services.php [L]
 RewriteRule ^thanks/$ thanks.php [L]
 RewriteRule ^error/$ 500.php [L]
+RewriteRule ^links/$ links.php [L]
 
 ErrorDocument 404 /404.php
 ErrorDocument 500 /500.php
