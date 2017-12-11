@@ -140,7 +140,7 @@ $(document).ready(function(){
 		<p><img src="images/img-reason-confusion.png" alt="We make things simple" width="64" height="64" style="margin-right:5px;" />We take the confusion out of the settlement process.</p>
 	
 	
-	<p><a href="/services" class="button" title="read all the reasons to work with us"><img src="images/but-readall-reasons-en.gif" alt="read all the reasons to work with us" /><span>read all the reasons to work with us</span></a></p>
+	<p><a href="/why-choose-us" class="button" title="read all the reasons to work with us"><img src="images/but-readall-reasons-en.gif" alt="read all the reasons to work with us" /><span>read all the reasons to work with us</span></a></p>
 
 </div>
 

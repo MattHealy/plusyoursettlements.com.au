@@ -1414,4 +1414,12 @@ label.error {
 	margin-bottom:5px;
 }
 
+div.resources {
+	font-size: 14px;
+}
+
+div.resources img {
+	margin-bottom: 10px;
+}
+
 /* End Contact Form */
