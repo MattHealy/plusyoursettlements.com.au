@@ -54,4 +54,9 @@
 	        <p><img src="images/icn-testimonial.png" alt="" style="float:left; margin-right:5px;"/>Read our customer testimonials to find out why our clients are satisfied with our services. <a href="/testimonials" title="customer testimonials"  style="margin-left:69px"><img src="images/but-testimonial-en.gif" title="customer testimonials" alt="customer testimonials"/></a></p>
 	</div>
 
+	<div class="rightBlock">
+        	<h4>Useful Links</h4>
+	        <p>Check out our <a href="/links">collection of handy links</a></p>
+	</div>
+
 </div>
