@@ -30,6 +30,7 @@
 					   <li><a href="http://firb.gov.au/" target="_blank">Foreign Investment Review Board</a> - Information on being a foreign investor</li>
 					   <li><a href="https://www.pexa.com.au/buyers-sellers" target="_blank">Property Exchange Australia</a> - Information about e-conveyancing and settling online</li>
 					   <li><a href="http://www.stewartau.com/" target="_blank">Title insurance products</a> - Insurance that covers you if there are unimproved structures or incorrect boundaries in place</li>
+					   <li><a href="http://www.plusloans.com.au/" target="_blank">Plus Loans</a> - A friendly and local finance broker</li>
 					</ul>
 
 				</div>
