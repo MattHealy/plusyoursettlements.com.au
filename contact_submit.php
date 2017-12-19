@@ -2,7 +2,7 @@
 
 $pagetitle = 'Contact Us';
 
-$to = 'matt@matthealy.com.au';
+$to = 'sam@plusyoursettlements.com.au';
 $subject = 'Plus Your Settlements Website Inquiry';
 
 session_start();
