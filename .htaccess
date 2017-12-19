@@ -5,42 +5,43 @@ RewriteCond %{HTTP_HOST} ^plusyoursettlements.com.au [NC]
 RewriteRule ^(.*)$ http://www.plusyoursettlements.com.au/$1 [L,R=301,NC]
 
 # Redirect old .html URLs to new PHP URLs
-Redirect 301 /index.html /
-Redirect 301 /contact.html /contact
-Redirect 301 /buying.html /buying
-Redirect 301 /selling.html /selling
-Redirect 301 /testimonials.html /testimonials
-Redirect 301 /tools.html /tools
-Redirect 301 /about.html /about
-Redirect 301 /services.html /services
+Redirect 301 /index.html http://www.plusyoursettlements.com.au
+Redirect 301 /contact.html http://www.plusyoursettlements.com.au/contact
+Redirect 301 /buying.html http://www.plusyoursettlements.com.au/buying
+Redirect 301 /selling.html http://www.plusyoursettlements.com.au/selling
+Redirect 301 /testimonials.html http://www.plusyoursettlements.com.au/testimonials
+Redirect 301 /tools.html http://www.plusyoursettlements.com.au/tools
+Redirect 301 /about.html http://www.plusyoursettlements.com.au/about
+Redirect 301 /services.html http://www.plusyoursettlements.com.au/services
 
 # New clean URL structure
 
-RewriteRule ^contact$ contact.php [L]
-RewriteRule ^contact/submit$ contact_submit.php [L]
-RewriteRule ^buying$ buying.php [L]
-RewriteRule ^selling$ selling.php [L]
-RewriteRule ^testimonials$ testimonials.php [L]
-RewriteRule ^tools$ tools.php [L]
-RewriteRule ^about$ about.php [L]
-RewriteRule ^services$ services.php [L]
-RewriteRule ^thanks$ thanks.php [L]
-RewriteRule ^error$ 500.php [L]
-RewriteRule ^links$ links.php [L]
-RewriteRule ^why-choose-us$ why.php [L]
+RewriteRule ^$ /index.php [L]
+RewriteRule ^contact$ /contact.php [L]
+RewriteRule ^contact/submit$ /contact_submit.php [L]
+RewriteRule ^buying$ /buying.php [L]
+RewriteRule ^selling$ /selling.php [L]
+RewriteRule ^testimonials$ /testimonials.php [L]
+RewriteRule ^tools$ /tools.php [L]
+RewriteRule ^about$ /about.php [L]
+RewriteRule ^services$ /services.php [L]
+RewriteRule ^thanks$ /thanks.php [L]
+RewriteRule ^error$ /500.php [L]
+RewriteRule ^links$ /links.php [L]
+RewriteRule ^why-choose-us$ /why.php [L]
 
-RewriteRule ^contact/$ contact.php [L]
-RewriteRule ^contact/submit/$ contact_submit.php [L]
-RewriteRule ^buying/$ buying.php [L]
-RewriteRule ^selling/$ selling.php [L]
-RewriteRule ^testimonials/$ testimonials.php [L]
-RewriteRule ^tools/$ tools.php [L]
-RewriteRule ^about/$ about.php [L]
-RewriteRule ^services/$ services.php [L]
-RewriteRule ^thanks/$ thanks.php [L]
-RewriteRule ^error/$ 500.php [L]
-RewriteRule ^links/$ links.php [L]
-RewriteRule ^why-choose-us/$ why.php [L]
+RewriteRule ^contact/$ /contact.php [L]
+RewriteRule ^contact/submit/$ /contact_submit.php [L]
+RewriteRule ^buying/$ /buying.php [L]
+RewriteRule ^selling/$ /selling.php [L]
+RewriteRule ^testimonials/$ /testimonials.php [L]
+RewriteRule ^tools/$ /tools.php [L]
+RewriteRule ^about/$ /about.php [L]
+RewriteRule ^services/$ /services.php [L]
+RewriteRule ^thanks/$ /thanks.php [L]
+RewriteRule ^error/$ /500.php [L]
+RewriteRule ^links/$ /links.php [L]
+RewriteRule ^why-choose-us/$ /why.php [L]
 
 ErrorDocument 404 /404.php
 ErrorDocument 500 /500.php
