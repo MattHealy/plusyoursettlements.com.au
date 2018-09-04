@@ -22,6 +22,12 @@
 						Unfortunately something has gone wrong. Please try your request again or <a href="/">return to the home page</a>.
 						</p>
 
+					<?php
+						if ($_GET['details']) {
+						    echo "<p><strong>Details</strong>: " . $_GET['details'] . "</p>";
+						}
+					?>
+
 				</div>
 
 <?php require_once('sidebar.php') ?>

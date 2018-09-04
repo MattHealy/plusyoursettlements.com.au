@@ -17,13 +17,27 @@ if (isset($_POST['csrf_token']) && $_POST['csrf_token'] === $_SESSION['csrf_toke
     // Verify with Google Recaptcha
     $recaptcha = $_POST['g-recaptcha-response'];
 
-    $ch = curl_init('https://www.google.com/recaptcha/api/siteverify');
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($ch, CURLOPT_POST, 1);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, 'secret=' . $RECAPTCHA_SECRET . '&response=' . $recaptcha);
-    curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/x-www-form-urlencoded'));
-    $result = curl_exec($ch);
-    $data = json_decode($result, true);
+    $url = 'https://www.google.com/recaptcha/api/siteverify';
+
+    $options = array(
+        'http' => array(
+            'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
+            'method'  => 'POST',
+            'content' => 'secret=' . $RECAPTCHA_SECRET . '&response=' . $recaptcha
+        )
+    );
+
+    $context  = stream_context_create($options);
+    $result = file_get_contents($url, false, $context);
+    if ($result === FALSE) {
+        header('Location: /error?details=Recaptcha%20validation%20failure');
+    }
+
+    try {
+        $data = json_decode($result, true);
+    } catch (Exception $e) {
+        echo 'Caught exception: ',  $e->getMessage(), "\n";
+    }
 
     if ($data['success']) {
 
@@ -63,16 +77,16 @@ EOT;
         if ($success) {
             header('Location: /thanks');
         } else {
-            header('Location: /error');
+            header('Location: /error?details=Error%20sending%20email');
         }
 
     } else {
-        header('Location: /error');
+        header('Location: /error?details=Recaptcha%20validation%20failure');
     }
 
 } else {
     // POST data is invalid.
-    header('Location: /error');
+    header('Location: /error?details=Contact%20form%20validation%20failed');
 }
 
 die();
