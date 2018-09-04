@@ -1,3 +1,9 @@
+<script>
+	var verifyCallback = function(response) {
+		$("#submitbutton").fadeIn();
+	};
+</script>
+
 <div class="right">
 
 	<div class="rightBlock">
@@ -30,6 +36,9 @@
 					<textarea class="textfield" name="comments" required="required"></textarea>
 				</p>
 				<p>
+					<div style="margin-left: 11px;" class="g-recaptcha" data-sitekey="6LckMm4UAAAAAKqzK-bcyjTf38CWlSHVN9gjLEvA" data-callback="verifyCallback" data-size="compact" data-theme="light"></div>
+				</p>
+				<p id="submitbutton" style="display: none;">
 					<button type="submit">Submit Request</button>
        				</p>
 			</fieldset>

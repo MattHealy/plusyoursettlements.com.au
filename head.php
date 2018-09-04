@@ -39,13 +39,13 @@
 <script type="text/javascript" src="js/innerfade.js?t=<?php echo $cachebuster; ?>"></script>
 <script type="text/javascript" src="js/stampduty.js?t=<?php echo $cachebuster; ?>"></script>
 
+<script src='https://www.google.com/recaptcha/api.js'></script>
    
     <script type="text/javascript">
     $(window).on("load", function() {
         $('#slider').nivoSlider();
     });
     </script>
-    
     
 </head>
 
