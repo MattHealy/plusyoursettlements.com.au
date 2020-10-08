@@ -20,7 +20,7 @@
 											
 						<h2>Plus Your Settlements</h2>
 						<p>
-						11 The Crescent<br />Midland WA 6056
+						Shop 2, 5 Junction Parade<br />Midland WA 6056
 						</p>
 						<h2>Phone</h2>
 						<p>(08) 9274 2833</p>

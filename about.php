@@ -45,7 +45,7 @@ The Plus Your Settlements team helps in all aspects of settlements:
 
   <img src="images/office.jpg" width="500" height="333" alt="Plus Your Settlements Team photo" />
 
-  <p>Plus Your Settlements is a residential and commercial property settlement agent located at 11 The Crescent, Midland, Western Australia. Plus Your Settlements commenced operation in 2010 servicing customers all over the great state of Western Australia. Currently the team at Plus Your Settlements is made up of Sam Winter and Michelle Schorer.</p>
+  <p>Plus Your Settlements is a residential and commercial property settlement agent located at Shop 2, 5 Junction Parade, Midland, Western Australia. Plus Your Settlements commenced operation in 2010 servicing customers all over the great state of Western Australia. Currently the team at Plus Your Settlements is made up of Sam Winter and Michelle Schorer.</p>
 
 <div style="float: left; width: 50%">
 

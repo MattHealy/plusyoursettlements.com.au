@@ -159,7 +159,7 @@ $(document).ready(function(){
 		<h3>Plus Your Settlements</h3>
         <p><img src="images/img-address-en.png" alt="Call us for a quote" width="64" height="64" style="margin-right:5px;" /></p>
 	<div>
-		<p>11 The Crescent<br />Midland WA 6056</p>
+		<p>Shop 2, 5 Junction Parade<br />Midland WA 6056</p>
 		<p class="address">Call us: (08) 9274 2833</p>
 
 		<p class="address">
